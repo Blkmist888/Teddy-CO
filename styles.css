@@ -1,0 +1,95 @@
+
+*{ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.container{
+display: flex;
+flex-direction: column;
+flex: 1;
+
+}
+
+.intro{ display: flex;
+border: 1px solid ;
+padding: 20px;
+background: linear-gradient(lightpink,rgb(221, 120, 171));
+color: black;
+font-variant: small-caps;}
+
+
+
+
+.teddyimg{ display: flex;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.middle{ display: flex;
+flex-direction: column;
+background-color:pink;
+align-items: center;
+font-weight: bold;
+font-size: 15px;
+/* MIDDLE OF THE PAGE */
+}
+.imgcollection{ display: flex;
+    flex:1, 1, 1;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+
+.quotecontainer{ display: flex;
+font-size: 36px;
+font-style: italic;
+font-weight: bolder;
+color:blanchedalmond;
+background-color:plum;
+}
+
+.footer{ display: flex;
+flex: 1;
+flex-wrap: wrap;
+justify-content:flex-start;
+
+background-color: rgb(221, 120, 171);
+}
+
+.headerstuff{ display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.para1{ display: flex;
+    flex-wrap:wrap;
+
+}
+.headerlinks{ display: flex;
+
+
+}
+
+button{ border-radius: 5px;
+    background-color:#609cfc ;
+
+}
+
+.signup2{ margin-left: 25px;
+  
+
+}
+
+.itsyourtime{ font-size: 36px;
+     font-style: italic;
+     font-weight: bolder;
+     color: yellow;
+
+}
+
+.dontwait{ font-weight: bold;
+     font-size: larger;
+color: lightgreen
+}
